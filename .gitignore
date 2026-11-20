@@ -1,0 +1,46 @@
+# Dependencies in every package
+node_modules/
+
+# Build output and caches
+dist/
+build/
+out-tsc/
+.angular/
+.cache/
+coverage/
+*.tsbuildinfo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python environment, bytecode and tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Logs and operating system files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+
+# Local agent instructions at any level
+AGENTS.md
+AGENTS.override.md
+
+# Agent specifications (planned locations)
+/docs/01-business.md
+/docs/02-frontend.md
+/docs/03-backend-and-integrations.md
+/docs/04-ci-cd.md
+/docs/05-delivery-and-agents.md
